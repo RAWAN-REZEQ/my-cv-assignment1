@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rawan Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #333;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #5c6bc0, #3949ab);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        .header h1 {
+            margin-bottom: 15px;
+        }
+
+        .header nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .header a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* About */
+        .about {
+            width: 80%;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+        }
+
+        .about h2 {
+            color: #3949ab;
+            margin-bottom: 15px;
+        }
+
+        /* Skills */
+        .skills {
+            width: 80%;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skills h2 {
+            grid-column: 1/-1;
+            text-align: center;
+            color: #3949ab;
+            margin-bottom: 10px;
+        }
+
+        .skills article {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+            transition: 0.3s;
+        }
+
+        .skills article:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+        }
+
+        .skills h3 {
+            color: #5c6bc0;
+            margin-bottom: 10px;
+        }
+
+        /* Contact */
+        .contact {
+            width: 80%;
+            margin: 40px auto;
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+        }
+
+        .contact h2 {
+            color: #3949ab;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            background: #5c6bc0;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .contact a:hover {
+            background: #3949ab;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Rawan Hassan</h1>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+
+        <p>
+            My name is Rawan Hassan Mohamed Abu Rezeq. I am a student of
+            Intelligent Systems and Computer Engineering at Al-Aqsa University in Gaza.
+            I love programming and web development, and I always strive to improve
+            my skills and learn new technologies.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+
+        <h2>My Skills</h2>
+
+        <article>
+            <h3>HTML & CSS</h3>
+            <p>I can build responsive and modern web pages using HTML and CSS.</p>
+        </article>
+
+        <article>
+            <h3>JavaScript</h3>
+            <p>I create interactive and dynamic web applications using JavaScript.</p>
+        </article>
+
+        <article>
+            <h3>Self Learning</h3>
+            <p>I continuously improve my skills and learn new technologies independently.</p>
+        </article>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <a href="mailto:rzqrwan7@gmail.com">Email Me</a>
+    </section>
+
+</body>
+
+</html>
